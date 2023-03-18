@@ -29,6 +29,7 @@ router.route("/getCv/:id").get(cvController.getCv) // get cv
 router.route("/updateUser").put(Auth, authController.updateUser); // is use to update the user profile
 router.route('/resetPassword').put(authController.verifyUser, authController.resetPassword); // use to reset password
 
+router.route("/updateCv/:id").put(cvController.updateCv) // update CV
 
 
 export default router;

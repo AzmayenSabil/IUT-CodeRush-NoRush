@@ -43,4 +43,23 @@ export const getCv = async (req, res) =>{
     }
   };
 
- 
+ // Update a CV by ID
+ export const updateCv = async (req, res) => {
+    try {
+      const { id } = req.params;
+      console.log(id);
+      console.log(req.body);
+      const updatedCv = await CvModel.findByIdAndUpdate(
+        id,
+        req.body,
+        { new: true }
+      );
+      if (!updatedCv) {
+        return res.status(404).json({ message: "CV not found" });
+      }
+      return res.json(updatedCv);
+    } catch (error) {
+      console.error(error);
+      return res.status(500).json({ message: "Server error" });
+    }
+  };
