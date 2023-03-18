@@ -11,6 +11,8 @@ import Recovery from "./components/Authentication/Recovery";
 import Reset from "./components/Authentication/Reset";
 import PageNotFound from "./components/PageNotFound";
 
+import Cv from "./components/Resume/cv";
+
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from "./middleware/auth";
 
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Login />
+  },
+  {
+    path: "/cv",
+    element: <Cv></Cv>
   },
   // {
   //   path: "/",
