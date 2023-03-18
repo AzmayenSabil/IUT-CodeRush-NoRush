@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/css/orbit-1.css"
+import "../../assets/plugins/bootstrap/css/bootstrap.min.css"
 
 function sidebar(){
     return(<div className="sidebar-wrapper">
