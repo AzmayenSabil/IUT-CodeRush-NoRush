@@ -6,6 +6,8 @@ import { useAuthStore } from "../../../store/store";
 import { passwordValidate } from "../../../helper/validate";
 import { verifyPassword } from "../../../helper/helper";
 
+import Navbar from '../../../components/Navigation/Navbar';
+
 import styles from "../../../styles/Username.module.css";
 
 export default function Login() {
@@ -52,6 +54,7 @@ export default function Login() {
 
   return (
     <div className="container mx-auto">
+      <Navbar></Navbar>
       <Toaster position="top-center" reverseOrder={false}></Toaster>
 
       <div className="flex justify-center items-center h-screen">
@@ -93,14 +96,13 @@ export default function Login() {
                   Register Now
                 </Link>
               </span>
-            </div>
-            <div className="text-center py-4">
-              <span className="text-gray-500">
+              
+              <div className="text-gray-500 py-2">
                 Forgot Password?{" "}
                 <Link className="text-red-500" to="/recovery">
                   Recover Now
                 </Link>
-              </span>
+              </div>
             </div>
           </form>
         </div>
