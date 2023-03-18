@@ -4,7 +4,7 @@ import './Guide.css';
 
 function Guide() {
   const divStyle = {
-    margin: '50px'
+    margin: '50px'   
   };
   
   return (
