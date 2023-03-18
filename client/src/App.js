@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import CreateCV from "./components/Authentication/ResumeCreation/createCV.js";
 /** import all components */
 import Login from './components/Authentication/Login/Login.js'
 // import Username from "./components/Authentication/Login/Username";
@@ -27,6 +27,11 @@ const router = createBrowserRouter([
   {
     path: "/cv",
     element: <Cv></Cv>
+  },
+
+  {
+    path: "/createCV",
+    element: <CreateCV/>
   },
   // {
   //   path: "/",
