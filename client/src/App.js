@@ -7,6 +7,7 @@ import Login from './components/Authentication/Login/Login.js'
 // import Password from "./components/Authentication/Login/Password";
 import Register from "./components/Authentication/Register/Register";
 import Profile from "./components/UserProfile/Profile";
+import Guide from "./components/Guidelines/Guide";
 import Recovery from "./components/Authentication/Recovery";
 import Reset from "./components/Authentication/Reset";
 import PageNotFound from "./components/PageNotFound";
