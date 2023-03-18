@@ -8,9 +8,7 @@
 	-moz-box-sizing:border-box;
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
+	-o-font-smoothing:antialiased;	text-rendering:optimizeLegibility;
 }
 
 body {
@@ -20,6 +18,19 @@ body {
 	line-height:30px;
 	color:#777;
 	background:rgb(255, 255, 255);
+}
+
+form{
+    border: 1px solid rgb(255, 253, 253);
+    box-shadow: 2px 5px 5px 2px #d6d4d4;
+}
+
+.left-section{
+    width: 50%;
+}
+
+.right-section{
+    width: 50%;
 }
 
 .container {
@@ -74,7 +85,7 @@ fieldset {
 }
 
 #contact textarea {
-	height:100px;
+	height:40px;
 	max-width:100%;
   resize:none;
 }
@@ -115,3 +126,4 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
