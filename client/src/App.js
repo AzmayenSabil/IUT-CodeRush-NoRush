@@ -13,6 +13,8 @@ import PageNotFound from "./components/PageNotFound";
 import Home from "./components/HomePage/Home.js"
 
 
+import Cv from "./components/Resume/cv";
+
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from "./middleware/auth";
 
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login />
   },
+  {
+    path: "/cv",
+    element: <Cv></Cv>
+  },
+  // {
+  //   path: "/",
+  //   element: <Username></Username>,
+  // },
   {
     path: "/register",
     element: <Register></Register>,
