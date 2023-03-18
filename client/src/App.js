@@ -11,6 +11,7 @@ import Recovery from "./components/Authentication/Recovery";
 import Reset from "./components/Authentication/Reset";
 import PageNotFound from "./components/PageNotFound";
 import Home from "./components/HomePage/Home.js"
+import Questionnaire from "./components/Questionnaire/Questionnaire.js";
 
 
 import Cv from "./components/Resume/cv";
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/createCV",
     element: <CreateCV/>
+  },
+  {
+    path: "/questionnaire",
+    element: <Questionnaire></Questionnaire>
   },
   // {
   //   path: "/",
