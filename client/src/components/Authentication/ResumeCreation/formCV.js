@@ -5,8 +5,8 @@ const formCV = () => {
   return (
     <div className="container">  
   <form id="contact" action method="post">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <h3>Personal Information</h3>
+    <h4>Fill the resume with your personal information</h4>
     <fieldset>
       <input placeholder="Your name" type="text" tabIndex={1} required autofocus />
     </fieldset>
@@ -23,7 +23,7 @@ const formCV = () => {
       <textarea placeholder="Type your Message Here...." tabIndex={5} required defaultValue={""} />
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Next</button>
     </fieldset>
   </form>
 </div>
