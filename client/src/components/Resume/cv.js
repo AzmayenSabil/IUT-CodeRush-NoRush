@@ -9,24 +9,20 @@ import '../../assets/css/orbit-1.css'
 import "../../assets/plugins/bootstrap/css/bootstrap.min.css"
 
 function Cv(){
-    return(
- 
-
-  <div className="wrapper mt-lg-5">
-    <Sidebar/>
-    <div className="main-wrapper">
-      <Summary/>
-      <Experience/>
-      
-      <Projects/>
-      
-      <Skills/>
-    </div>{/*//main-body*/}
-  </div>
-
-
-
-    )
+    
+  return(
+    <div className="wrapper mt-lg-5">
+      <Sidebar/>
+      <div className="main-wrapper">
+        <Summary/>
+        <Experience/>
+        
+        <Projects/>
+        
+        <Skills/>
+      </div>{/*//main-body*/}
+    </div>
+  )
 }
 
 export default Cv;

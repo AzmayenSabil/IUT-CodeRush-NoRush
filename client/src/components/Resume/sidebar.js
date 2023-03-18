@@ -1,14 +1,16 @@
 import React from "react";
 import "../../assets/css/orbit-1.css"
 import "../../assets/plugins/bootstrap/css/bootstrap.min.css"
+import ProfileSection from "./ProfileSection"
 
 function sidebar(){
     return(<div className="sidebar-wrapper">
-    <div className="profile-container">
+    {/* <div className="profile-container">
       <img className="profile" src="assets/images/profile.png" alt />
       <h1 className="name">Alan Doe</h1>
       <h3 className="tagline">Full Stack Developer</h3>
-    </div>{/*//profile-container*/}
+    </div>
+    
     <div className="contact-container container-block">
       <ul className="list-unstyled contact-list">
         <li className="email"><i className="fa-solid fa-envelope" /><a href="mailto: yourname@email.com">alan.doe@website.com</a></li>
@@ -18,7 +20,8 @@ function sidebar(){
         <li className="github"><i className="fa-brands fa-github" /><a href="#" target="_blank">github.com/username</a></li>
         <li className="twitter"><i className="fa-brands fa-twitter" /><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>
       </ul>
-    </div>{/*//contact-container*/}
+    </div> */}
+    <ProfileSection></ProfileSection>
     <div className="education-container container-block">
       <h2 className="container-block-title">Education</h2>
       <div className="item">
