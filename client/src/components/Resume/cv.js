@@ -1,113 +1,172 @@
 import React from "react";
 
+import '../../assets/css/orbit-1.css'
+
 function Cv(){
     return(
-        <body class="w3-light-grey">
-<div className="w3-content w3-margin-top" style={{maxWidth: 1400}}>
-  {/* The Grid */}
-  <div className="w3-row-padding">
-    {/* Left Column */}
-    <div className="w3-third">
-      <div className="w3-white w3-text-grey w3-card-4">
-        <div className="w3-display-container">
-          <img src="/w3images/avatar_hat.jpg" style={{width: '100%'}} alt="Avatar" />
-          <div className="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Jane Doe</h2>
-          </div>
-        </div>
-        <div className="w3-container">
-          <p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal" />Designer</p>
-          <p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal" />London, UK</p>
-          <p><i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal" />ex@mail.com</p>
-          <p><i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal" />1224435534</p>
-          <hr />
-          <p className="w3-large"><b><i className="fa fa-asterisk fa-fw w3-margin-right w3-text-teal" />Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div className="w3-light-grey w3-round-xlarge w3-small">
-            <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '90%'}}>90%</div>
-          </div>
-          <p>Photography</p>
-          <div className="w3-light-grey w3-round-xlarge w3-small">
-            <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '80%'}}>
-              <div className="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div className="w3-light-grey w3-round-xlarge w3-small">
-            <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '75%'}}>75%</div>
-          </div>
-          <p>Media</p>
-          <div className="w3-light-grey w3-round-xlarge w3-small">
-            <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '50%'}}>50%</div>
-          </div>
-          <br />
-          <p className="w3-large w3-text-theme"><b><i className="fa fa-globe fa-fw w3-margin-right w3-text-teal" />Languages</b></p>
-          <p>English</p>
-          <div className="w3-light-grey w3-round-xlarge">
-            <div className="w3-round-xlarge w3-teal" style={{height: 24, width: '100%'}} />
-          </div>
-          <p>Spanish</p>
-          <div className="w3-light-grey w3-round-xlarge">
-            <div className="w3-round-xlarge w3-teal" style={{height: 24, width: '55%'}} />
-          </div>
-          <p>German</p>
-          <div className="w3-light-grey w3-round-xlarge">
-            <div className="w3-round-xlarge w3-teal" style={{height: 24, width: '25%'}} />
-          </div>
-          <br />
-        </div>
-      </div><br />
-      {/* End Left Column */}
-    </div>
-    {/* Right Column */}
-    <div className="w3-twothird">
-      <div className="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal" />Work Experience</h2>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />Jan 2015 - <span className="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr />
-        </div>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr />
-        </div>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br />
-        </div>
-      </div>
-      <div className="w3-container w3-card w3-white">
-        <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal" />Education</h2>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr />
-        </div>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>London Business School</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr />
-        </div>
-        <div className="w3-container">
-          <h5 className="w3-opacity"><b>School of Coding</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2010 - 2013</h6>
-          <p>Bachelor Degree</p><br />
-        </div>
-      </div>
-      {/* End Right Column */}
-    </div>
-    {/* End Grid */}
+ 
+
+  <div className="wrapper mt-lg-5">
+    <div className="sidebar-wrapper">
+      <div className="profile-container">
+        <img className="profile" src="assets/images/profile.png" alt />
+        <h1 className="name">Alan Doe</h1>
+        <h3 className="tagline">Full Stack Developer</h3>
+      </div>{/*//profile-container*/}
+      <div className="contact-container container-block">
+        <ul className="list-unstyled contact-list">
+          <li className="email"><i className="fa-solid fa-envelope" /><a href="mailto: yourname@email.com">alan.doe@website.com</a></li>
+          <li className="phone"><i className="fa-solid fa-phone" /><a href="tel:0123 456 789">0123 456 789</a></li>
+          <li className="website"><i className="fa-solid fa-globe" /><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li>
+          <li className="linkedin"><i className="fa-brands fa-linkedin-in" /><a href="#" target="_blank">linkedin.com/in/alandoe</a></li>
+          <li className="github"><i className="fa-brands fa-github" /><a href="#" target="_blank">github.com/username</a></li>
+          <li className="twitter"><i className="fa-brands fa-twitter" /><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>
+        </ul>
+      </div>{/*//contact-container*/}
+      <div className="education-container container-block">
+        <h2 className="container-block-title">Education</h2>
+        <div className="item">
+          <h4 className="degree">MSc in Computer Science</h4>
+          <h5 className="meta">University of London</h5>
+          <div className="time">2016 - 2018</div>
+        </div>{/*//item*/}
+        <div className="item">
+          <h4 className="degree">BSc in Applied Mathematics</h4>
+          <h5 className="meta">Bristol University</h5>
+          <div className="time">2012 - 2016</div>
+        </div>{/*//item*/}
+      </div>{/*//education-container*/}
+      <div className="languages-container container-block">
+        <h2 className="container-block-title">Languages</h2>
+        <ul className="list-unstyled interests-list">
+          <li>English <span className="lang-desc">(Native)</span></li>
+          <li>French <span className="lang-desc">(Professional)</span></li>
+          <li>Spanish <span className="lang-desc">(Professional)</span></li>
+        </ul>
+      </div>{/*//interests*/}
+      <div className="interests-container container-block">
+        <h2 className="container-block-title">Interests</h2>
+        <ul className="list-unstyled interests-list">
+          <li>Climbing</li>
+          <li>Snowboarding</li>
+          <li>Cooking</li>
+        </ul>
+      </div>{/*//interests*/}
+    </div>{/*//sidebar-wrapper*/}
+    <div className="main-wrapper">
+      <section className="section summary-section">
+        <h2 className="section-title"><span className="icon-holder"><i className="fa-solid fa-user" /></span>Career Profile</h2>
+        <div className="summary">
+          <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+        </div>{/*//summary*/}
+      </section>{/*//section*/}
+      <section className="section experiences-section">
+        <h2 className="section-title"><span className="icon-holder"><i className="fa-solid fa-briefcase" /></span>Experiences</h2>
+        <div className="item">
+          <div className="meta">
+            <div className="upper-row">
+              <h3 className="job-title">Lead Developer</h3>
+              <div className="time">2022 - Present</div>
+            </div>{/*//upper-row*/}
+            <div className="company">Startup Hubs, San Francisco</div>
+          </div>{/*//meta*/}
+          <div className="details">
+            <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+          </div>{/*//details*/}
+        </div>{/*//item*/}
+        <div className="item">
+          <div className="meta">
+            <div className="upper-row">
+              <h3 className="job-title">Senior Software Engineer</h3>
+              <div className="time">2018 - 2022</div>
+            </div>{/*//upper-row*/}
+            <div className="company">Google, London</div>
+          </div>{/*//meta*/}
+          <div className="details">
+            <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+          </div>{/*//details*/}
+        </div>{/*//item*/}
+        <div className="item">
+          <div className="meta">
+            <div className="upper-row">
+              <h3 className="job-title">UI Developer</h3>
+              <div className="time">2016 - 2018</div>
+            </div>{/*//upper-row*/}
+            <div className="company">Amazon, London</div>
+          </div>{/*//meta*/}
+          <div className="details">
+            <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+          </div>{/*//details*/}
+        </div>{/*//item*/}
+      </section>{/*//section*/}
+      <section className="section projects-section">
+        <h2 className="section-title"><span className="icon-holder"><i className="fa-solid fa-archive" /></span>Projects</h2>
+        <div className="intro">
+          <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+        </div>{/*//intro*/}
+        <div className="item">
+          <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/" target="_blank">CoderPro</a></span> - <span className="project-tagline">A responsive website template designed to help developers launch their software projects. </span>
+        </div>{/*//item*/}
+        <div className="item">
+          <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-5-template-for-saas-businesses/" target="_blank">Launch</a></span> - <span className="project-tagline">A responsive website template designed to help startups promote their products or services.</span>
+        </div>{/*//item*/}
+        <div className="item">
+          <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-5-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard</a></span> - <span className="project-tagline">A portfolio website template designed for software developers.</span>
+        </div>{/*//item*/}
+        <div className="item">
+          <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro</a></span> - <span className="project-tagline">A responsive Bootstrap theme designed to help app developers promote their mobile apps</span>
+        </div>{/*//item*/}
+        <div className="item">
+          <span className="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
+          <span className="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
+        </div>{/*//item*/}
+      </section>{/*//section*/}
+      <section className="skills-section section">
+        <h2 className="section-title"><span className="icon-holder"><i className="fa-solid fa-rocket" /></span>Skills &amp; Proficiency</h2>
+        <div className="skillset">        
+          <div className="item">
+            <h3 className="level-title">Python &amp; Django</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '99%'}} aria-valuenow={99} aria-valuemin={0} aria-valuemax={100} />
+            </div>                               
+          </div>{/*//item*/}
+          <div className="item">
+            <h3 className="level-title">Javascript</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '98%'}} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+            </div>                              
+          </div>{/*//item*/}
+          <div className="item">
+            <h3 className="level-title">React &amp; Angular</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '98%'}} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+            </div>                                 
+          </div>{/*//item*/}
+          <div className="item">
+            <h3 className="level-title">HTML5 &amp; CSS</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '95%'}} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
+            </div>                                
+          </div>{/*//item*/}
+          <div className="item">
+            <h3 className="level-title">Ruby on Rails</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '85%'}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
+            </div>                                  
+          </div>{/*//item*/}
+          <div className="item">
+            <h3 className="level-title">Sketch &amp; Photoshop</h3>
+            <div className="progress level-bar">
+              <div className="progress-bar theme-progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
+            </div>                                 
+          </div>{/*//item*/}
+        </div>  
+      </section>{/*//skills-section*/}
+    </div>{/*//main-body*/}
   </div>
-  {/* End Page Container */}
-</div>
-</body>
+
+
 
     )
 }
