@@ -10,6 +10,8 @@ import Profile from "./components/UserProfile/Profile";
 import Recovery from "./components/Authentication/Recovery";
 import Reset from "./components/Authentication/Reset";
 import PageNotFound from "./components/PageNotFound";
+import Home from "./components/HomePage/Home.js"
+
 
 import Cv from "./components/Resume/cv";
 
@@ -19,7 +21,7 @@ import { AuthorizeUser, ProtectRoute } from "./middleware/auth";
 /** root routes */
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/login',
     element: <Login />
   },
   {
@@ -39,20 +41,18 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register></Register>,
   },
-  // {
-  //   path: "/password",
-  //   element: (
-  //     <ProtectRoute>
-  //       <Password />
-  //     </ProtectRoute>
-  //   ),
-  // },
   {
     path: "/profile",
     element: (
       <AuthorizeUser>
         <Profile />
       </AuthorizeUser>
+    ),
+  },
+  {
+    path: "/",
+    element: (
+        <Home></Home>
     ),
   },
   {

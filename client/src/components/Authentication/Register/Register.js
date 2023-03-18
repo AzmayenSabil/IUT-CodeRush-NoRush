@@ -7,7 +7,12 @@ import { registerValidation } from "../../../helper/validate";
 import convertToBase64 from "../../../helper/convert";
 import { registerUser } from "../../../helper/helper";
 
+import Navbar from '../../../components/Navigation/Navbar';
+
 import styles from "../../../styles/Username.module.css";
+import background from "../../../assets/register-background.jpeg"
+
+// import './style.css'
 
 export default function Register() {
   const navigate = useNavigate();
@@ -45,22 +50,23 @@ export default function Register() {
 
   return (
     <div className="container mx-auto">
+      <Navbar/>
       <Toaster position="top-center" reverseOrder={false}></Toaster>
 
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center h-screen body-new">
         <div
           className={styles.glass}
-          style={{ width: "45%", paddingTop: "3em" }}
+          style={{ width: "35%", paddingTop: "3em" }}
         >
           <div className="title flex flex-col items-center">
-            <h4 className="text-5xl font-bold">Register</h4>
+            <h4 className="text-3xl font-bold">Register</h4>
             <span className="py-4 text-xl w-2/3 text-center text-gray-500">
-              Happy to join you!
+              Getting Started
             </span>
           </div>
 
           <form className="py-1" onSubmit={formik.handleSubmit}>
-            <div className="profile flex justify-center py-4">
+            {/* <div className="profile flex justify-center py-4">
               <label htmlFor="profile">
                 <img
                   src={file || avatar}
@@ -75,9 +81,9 @@ export default function Register() {
                 id="profile"
                 name="profile"
               />
-            </div>
+            </div> */}
 
-            <div className="textbox flex flex-col items-center gap-6">
+            <div className="textbox flex flex-col items-center gap-4">
               <input
                 {...formik.getFieldProps("email")}
                 className={styles.textbox}
@@ -103,7 +109,7 @@ export default function Register() {
 
             <div className="text-center py-4">
               <span className="text-gray-500">
-                Already Register?{" "}
+                Already Registered?{" "}
                 <Link className="text-red-500" to="/">
                   Login Now
                 </Link>
@@ -111,7 +117,14 @@ export default function Register() {
             </div>
           </form>
         </div>
+        {/* <div className="flex justify-right items-right h-screen">
+              <img src={background} width={30} alt="register-background"/>
+      </div> */}
+      {/* <div className="image-bg">
+              <img src={background} width={30} alt="register-background"/>
+      </div> */}
       </div>
+      
     </div>
   );
 }
