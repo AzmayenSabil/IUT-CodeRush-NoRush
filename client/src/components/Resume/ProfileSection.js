@@ -23,8 +23,8 @@ const PersonalInfo = () => {
 
   return (
     <div className="container">
-        <h3>My profile</h3>
-      
+        <h2>{personalInfo.personal_info.firstName} {personalInfo.personal_info.lastName}</h2>
+        <br></br>
         <div className="col-sm-6">
             <div className="form-group">
             <label>First Name</label>

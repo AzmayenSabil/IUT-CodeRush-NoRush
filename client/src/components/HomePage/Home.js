@@ -4,6 +4,8 @@ import Navbar from '../Navigation/Navbar';
 import CV from '../../assets/homepage-image.png'
 import './style.css'
 
+import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <div className="App">
@@ -20,7 +22,7 @@ function Home() {
                 It has never been simpler to create a resume. Create your professional CV right away for free by giving it a try. Why are you holding out?
               </p>
               <button className="secondary-button">
-                Create My Resume {" "}
+                <Link to='/createCV'>Create My Resume {" "}</Link>
               </button>
           </div>
 

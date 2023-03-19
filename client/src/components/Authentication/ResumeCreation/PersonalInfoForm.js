@@ -113,7 +113,7 @@ const PersonalInfoForm = () => {
         </fieldset>
         <fieldset>
           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" onClick={handleSubmit}>
-            Done
+            Add 
           </button>
         </fieldset>
       </form>
