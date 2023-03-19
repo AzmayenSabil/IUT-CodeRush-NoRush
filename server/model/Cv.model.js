@@ -28,50 +28,50 @@ const { Schema } = mongoose;
 const workExperienceSchema = new Schema({
   companyName: {
     type: String,
-    required: true,
+    required: false,
   },
   position: {
     type: String,
-    required: true,
+    required: false,
   },
   startDate: {
     type: Date,
-    required: true,
+    required: false,
   },
   endDate: {
     type: Date,
-    required: true,
+    required: false,
   },
   description: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 
 const educationSchema = new Schema({
   degree: {
     type: String,
-    required: true,
+    required: false,
   },
   schoolName: {
     type: String,
-    required: true,
+    required: false,
   },
   major: {
     type: String,
-    required: true,
+    required: false,
   },
   startDate: {
     type: Date,
-    required: true,
+    required: false,
   },
   endDate: {
     type: Date,
-    required: true,
+    required: false,
   },
   description: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 
@@ -79,52 +79,52 @@ const CvSchema = new Schema({
   personal_info: {
     firstName: {
         type: String,
-        required: true,
+        required: false,
     },
     lastName: {
         type: String,
-        required: true,
+        required: false,
     },
     job_title: {
         type: String,
-        required: true,
+        required: false,
     },
     email: {
         type: String,
-        required: true,
+        required: false,
     },
     phone: {
         type: String,
-        required: true,
+        required: false,
     }
   },
   summary: {
     type: String,
-    required: true,
+    required: false,
   },
   work_experience: {
     type: [workExperienceSchema],
-    required: true,
+    required: false,
   },
   education: {
     type: [educationSchema],
-    required: true,
+    required: false,
   },
   skills: {
     type: [String],
-    required: true,
+    required: false,
   },
   languages: {
     type: [String],
-    required: true,
+    required: false,
   },
   courses: {
     type: [String],
-    required: true,
+    required: false,
   },
   links: {
     type: [String],
-    required: true,
+    required: false,
   },
   reference: {
     type: String,
@@ -132,7 +132,7 @@ const CvSchema = new Schema({
   },
   hobbies: {
     type: [String],
-    required: true,
+    required: false,
   },
   created_at: {
     type: Date,

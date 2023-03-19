@@ -2,7 +2,7 @@ import CvModel from '../model/Cv.model.js'
 
 // POST request to create a new CV
 export const createCv = async (req, res) =>{
-    console.log('Creating')
+    console.log(req.body)
   try {
     const newCv = new CvModel({
       personal_info: {
