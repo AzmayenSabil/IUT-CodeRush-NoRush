@@ -7,7 +7,7 @@ const PersonalInfo = () => {
   useEffect(() => {
     const fetchPersonalInfo = async () => {
         try {
-          const response = await axios.get('http://localhost:8080/api/getCv/64162b49f285db1260b154a8');
+          const response = await axios.get('http://localhost:8080/api/getCv/64163df1f285db1260b154ba');
           setPersonalInfo(response.data);
           console.log(personalInfo);
         } catch (error) {
